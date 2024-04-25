@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.3.0" type="baseline" client="gradle" dependencies="false" name="AGP (8.3.0)" variant="all" version="8.3.0">
+
+    <issue
+        id="MissingConstraints"
+        message="This view is not constrained. It only has designtime positions, so it will jump to (0,0) at runtime unless you add the constraints"
+        errorLine1="    &lt;Button"
+        errorLine2="     ~~~~~~">
+        <location
+            file="src/main/res/layout/activity_translate.xml"
+            line="10"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.android.material:material than 1.10.0 is available: 1.11.0"
+        errorLine1="material = &quot;1.10.0&quot;"
+        errorLine2="           ~~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/MyMotionLayout/gradle/libs.versions.toml"
+            line="7"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.android.material:material than 1.10.0 is available: 1.11.0"
+        errorLine1="material = &quot;1.10.0&quot;"
+        errorLine2="           ~~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/MyMotionLayout/gradle/libs.versions.toml"
+            line="7"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.android.material:material than 1.10.0 is available: 1.11.0"
+        errorLine1="material = &quot;1.10.0&quot;"
+        errorLine2="           ~~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/MyMotionLayout/gradle/libs.versions.toml"
+            line="7"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.activity:activity than 1.8.0 is available: 1.8.2"
+        errorLine1="activity = &quot;1.8.0&quot;"
+        errorLine2="           ~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/MyMotionLayout/gradle/libs.versions.toml"
+            line="8"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.activity:activity than 1.8.0 is available: 1.8.2"
+        errorLine1="activity = &quot;1.8.0&quot;"
+        errorLine2="           ~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/MyMotionLayout/gradle/libs.versions.toml"
+            line="8"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.activity:activity than 1.8.0 is available: 1.8.2"
+        errorLine1="activity = &quot;1.8.0&quot;"
+        errorLine2="           ~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/MyMotionLayout/gradle/libs.versions.toml"
+            line="8"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;500px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_anim.xml"
+            line="13"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_marginTop=&quot;30px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_anim.xml"
+            line="15"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_marginStart=&quot;20px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_anim.xml"
+            line="16"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;1380px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_anim.xml"
+            line="22"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;120px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_anim.xml"
+            line="31"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;120px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_anim.xml"
+            line="32"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_margin=&quot;50px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_anim.xml"
+            line="33"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;100px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_click.xml"
+            line="13"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;100px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_click.xml"
+            line="14"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_marginStart=&quot;161px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="52"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_marginTop=&quot;10px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="53"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_marginEnd=&quot;10px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="54"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_marginBottom=&quot;10px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="55"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;120px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="61"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;120px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="62"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_margin=&quot;50px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="63"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;90px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_panel_test.xml"
+            line="14"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;100px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_swipe.xml"
+            line="31"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;100px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_swipe.xml"
+            line="32"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;100px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_translate.xml"
+            line="12"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;100px&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_translate.xml"
+            line="13"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="    android:layout_height=&quot;90px&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_anim.xml"
+            line="5"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="    android:layout_marginTop=&quot;15px&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_anim.xml"
+            line="6"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:paddingStart=&quot;30px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_anim.xml"
+            line="13"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;200px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_alpha.xml"
+            line="10"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;200px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_alpha.xml"
+            line="11"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;110px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_apps.xml"
+            line="11"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;110px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_apps.xml"
+            line="12"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;450px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_coordinator.xml"
+            line="11"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="            android:minHeight=&quot;120px&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_coordinator.xml"
+            line="28"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="            android:layout_margin=&quot;16px&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_coordinator.xml"
+            line="49"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;200px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_custom_color.xml"
+            line="10"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;200px&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_custom_color.xml"
+            line="11"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;110px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_home.xml"
+            line="11"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;110px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_home.xml"
+            line="12"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;110px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_home1.xml"
+            line="11"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;110px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_home1.xml"
+            line="12"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;550px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_image_transition.xml"
+            line="10"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;360px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_image_transition.xml"
+            line="11"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;200px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_keyframe_cycle.xml"
+            line="10"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;200px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_keyframe_cycle.xml"
+            line="11"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;200px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_keyframe_interpolation.xml"
+            line="10"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;200px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_keyframe_interpolation.xml"
+            line="11"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;200px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_keyframe_position.xml"
+            line="10"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;200px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_keyframe_position.xml"
+            line="11"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;110px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_map.xml"
+            line="11"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;110px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_map.xml"
+            line="12"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;110px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_music.xml"
+            line="11"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;110px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_music.xml"
+            line="12"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="                android:layout_marginStart=&quot;20px&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_nav.xml"
+            line="26"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="                android:layout_marginTop=&quot;80px&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_nav.xml"
+            line="27"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="                android:layout_marginStart=&quot;20px&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_nav.xml"
+            line="33"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="                android:layout_marginTop=&quot;50px&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_nav.xml"
+            line="34"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="                android:layout_marginStart=&quot;20px&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_nav.xml"
+            line="40"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="                android:layout_marginTop=&quot;50px&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_nav.xml"
+            line="41"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="                android:layout_marginStart=&quot;20px&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_nav.xml"
+            line="47"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="                android:layout_marginTop=&quot;50px&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_nav.xml"
+            line="48"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="                android:layout_marginStart=&quot;20px&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_nav.xml"
+            line="54"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="                android:layout_marginTop=&quot;50px&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_nav.xml"
+            line="55"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="                android:layout_marginStart=&quot;20px&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_nav.xml"
+            line="61"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="                android:layout_marginTop=&quot;50px&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_nav.xml"
+            line="62"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="                android:layout_marginStart=&quot;40px&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_nav.xml"
+            line="75"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="                android:layout_marginTop=&quot;80px&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_nav.xml"
+            line="76"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="                android:layout_marginStart=&quot;40px&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_nav.xml"
+            line="82"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="                android:layout_marginTop=&quot;50px&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_nav.xml"
+            line="83"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="                android:layout_marginStart=&quot;40px&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_nav.xml"
+            line="89"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="                android:layout_marginTop=&quot;50px&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_nav.xml"
+            line="90"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;110px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_radio.xml"
+            line="11"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;110px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_radio.xml"
+            line="12"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;200px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_rotation.xml"
+            line="10"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;200px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_rotation.xml"
+            line="11"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;200px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_scale.xml"
+            line="10"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;200px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_scale.xml"
+            line="11"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_width=&quot;200px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_translation.xml"
+            line="10"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="        android:layout_height=&quot;200px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_translation.xml"
+            line="11"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="ExpiredTargetSdkVersion"
+        message="Google Play requires that apps target API level 33 or higher."
+        errorLine1="        targetSdk = 31"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="12"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="NotifyDataSetChanged"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort."
+        errorLine1="        notifyDataSetChanged();"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/example/mymotionlayout/adapter/AnimAdapter.java"
+            line="25"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="NotifyDataSetChanged"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort."
+        errorLine1="        notifyDataSetChanged();"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/example/mymotionlayout/adapter/MyAdapter.java"
+            line="23"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v26`) is unnecessary; `minSdkVersion` is 28. Merge all the resources in this folder into `mipmap-anydpi`.">
+        <location
+            file="src/main/res/mipmap-anydpi-v26"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `@color/black` with a theme that also paints a background (inferred theme is `@style/Theme.MyMotionLayout`)"
+        errorLine1="    android:background=&quot;@color/black&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_anim.xml"
+            line="8"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.layout.activity_base` appears to be unused"
+        errorLine1="&lt;androidx.constraintlayout.widget.ConstraintLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2="^">
+        <location
+            file="src/main/res/layout/activity_base.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.purple` appears to be unused"
+        errorLine1="    &lt;color name=&quot;purple&quot;>#9C27B0&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="5"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.purple1` appears to be unused"
+        errorLine1="    &lt;color name=&quot;purple1&quot;>#1AEA3D&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="6"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.purple2` appears to be unused"
+        errorLine1="    &lt;color name=&quot;purple2&quot;>#F30E0E&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="7"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.btnColor` appears to be unused"
+        errorLine1="    &lt;color name=&quot;btnColor&quot;>#6E6161&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="9"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.scaleColor` appears to be unused"
+        errorLine1="    &lt;color name=&quot;scaleColor&quot;>#E91E63&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="13"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.rotationColor` appears to be unused"
+        errorLine1="    &lt;color name=&quot;rotationColor&quot;>#9C27B0&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="14"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.mipmap.ic_close` appears to be unused">
+        <location
+            file="src/main/res/mipmap-mdpi/ic_close.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.mipmap.ic_head` appears to be unused">
+        <location
+            file="src/main/res/mipmap-mdpi/ic_head.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.layout.view_header` appears to be unused"
+        errorLine1="&lt;androidx.constraintlayout.motion.widget.MotionLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2="^">
+        <location
+            file="src/main/res/layout/view_header.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;com.google.android.material.floatingactionbutton.FloatingActionButton"
+        errorLine2="     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_anim.xml"
+            line="29"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;com.google.android.material.floatingactionbutton.FloatingActionButton"
+        errorLine2="     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="59"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="            &lt;ImageView"
+        errorLine2="             ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_coordinator.xml"
+            line="32"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;ImageView"
+        errorLine2="     ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_header.xml"
+            line="9"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;text1显示&quot;, should use `@string` resource"
+        errorLine1="        android:text=&quot;text1显示&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_swipe.xml"
+            line="17"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;text2显示&quot;, should use `@string` resource"
+        errorLine1="        android:text=&quot;text2显示&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_swipe.xml"
+            line="25"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Fragment Home&quot;, should use `@string` resource"
+        errorLine1="        android:text=&quot;Fragment Home&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_content.xml"
+            line="13"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Toolbar&quot;, should use `@string` resource"
+        errorLine1="        android:text=&quot;Toolbar&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/view_header.xml"
+            line="20"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingStart` you should probably also define `paddingEnd` for right-to-left symmetry"
+        errorLine1="        android:paddingStart=&quot;30px&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_anim.xml"
+            line="13"
+            column="9"/>
+    </issue>
+
+</issues>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:checked="true"
+        android:icon="@mipmap/img_navigation_home_0"
+        android:title="首页" />
+
+    <item
+        android:id="@+id/nav_map"
+        android:checked="false"
+        android:icon="@mipmap/img_navigation_map_0"
+        android:title="地图" />
+
+    <item
+        android:id="@+id/nav_music"
+        android:checked="false"
+        android:icon="@mipmap/img_navigation_entertainment_0"
+        android:title="音乐" />
+
+    <item
+        android:id="@+id/nav_radio"
+        android:checked="false"
+        android:icon="@mipmap/img_navigation_radio_0"
+        android:title="电台" />
+
+    <item
+        android:id="@+id/nav_more"
+        android:checked="false"
+        android:icon="@mipmap/img_navigation_menu_0"
+        android:title="更多" />
+
+</menu>

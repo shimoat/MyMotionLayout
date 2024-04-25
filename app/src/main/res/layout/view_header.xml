@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!--<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ml_header"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="120px"
+    app:layoutDescription="@xml/view_header_scene"
+    app:layout_scrollFlags="scroll|enterAlways|snap|exitUntilCollapsed">
+
+        <ImageView
+            android:id="@+id/bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/img" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toolbar"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

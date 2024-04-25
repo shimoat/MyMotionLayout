@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#353131</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#9C27B0</color>
+    <color name="purple1">#537E5B</color>
+    <color name="purple2">#803E3E</color>
+    <color name="purple3">#3F51B5</color>
+    <color name="purple4">#A2A7C3</color>
+
+    <color name="btnColor">#6E6161</color>
+    <color name="navColor">#5C6161</color>
+
+    <color name="transformColor">#F44336</color>
+    <color name="scaleColor">#E91E63</color>
+    <color name="rotationColor">#9C27B0</color>
+    <color name="viewColor">#03A9F4</color>
+    <color name="navBarColor">#433737</color>
+    <color name="textColor">#D8DCE6</color>
+
+    <color name="leftViewColor">#464E4E</color>
+</resources>

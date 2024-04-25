@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/ml_map"
+    app:layoutDescription="@xml/view_map_scene">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/iv_map"
+        android:layout_width="110px"
+        android:layout_height="110px"
+        app:altSrc="@mipmap/img_navigation_map_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:overlay="false"
+        app:srcCompat="@mipmap/img_navigation_map_0" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

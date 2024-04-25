@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/view_parallax_scene">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="240px"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/img" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="240px"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/img1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="240px"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/img2" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="120px"
+        android:layout_height="80px"
+        android:background="@drawable/shape_view" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

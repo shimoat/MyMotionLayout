@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ml_preview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/view_preview_scene">
+
+    <TextView
+        android:id="@+id/tv_p"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="P"
+        android:textColor="@color/white"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_r"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="r"
+        android:textColor="@color/white"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_e1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="e"
+        android:textColor="@color/white"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_v"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="v"
+        android:textColor="@color/white"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_i"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="i"
+        android:textColor="@color/white"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_e2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="e"
+        android:textColor="@color/white"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_w"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="w"
+        android:textColor="@color/white"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
